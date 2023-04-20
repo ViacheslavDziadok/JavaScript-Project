@@ -1,0 +1,190 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>JavaScript Project</title>
+  <meta name="description" content="A website showcasing some JS interactions.">
+  <meta name="author" content="Viacheslav Dziadok">
+
+  <meta property="og:title" content="JavaScript Project">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://js-project-slavadziadok.2023-1.repl.co/">
+  <meta property="og:site_name" content="JavaScript Project">
+  <meta property="og:description" content="A website showcasing some JS interactions.">
+  <meta property="og:image" content="image.png">
+
+  <link rel="icon" href="https://powercoders.org/wp-content/uploads/2022/12/android-icon-192x192-2.png"
+    type="image/png">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="header_nav">
+    <!-- add logo as link back to home -->
+    <a class="icon" href="en/index.html">
+      <img src="img/ico/powercoders-logo-1.svg" alt="Logo PowerCoders" title="Go back to Homepage">
+    </a>
+    <!-- to add more styling possibilities, wrapping the navigation links in an unordered list is recommended. Semantically also correct, as we talk about a list of links -->
+    <ul class="site_nav">
+      <li>
+        <a href="en/projects.html">Projects</a>
+      </li>
+      <li>
+        <a href="en/stories.html">Stories</a>
+      </li>
+      <li>
+        <a href="en/about.html">About</a>
+      </li>
+    </ul>
+    <ul class="account">
+      <li>
+        <a href="en/account.html" title="Go to Account page">
+          <img src="img/ico/user.svg" alt="Account">
+        </a>
+      </li>
+      <li>
+        <a href="en/events.html" title="Go to Events page">
+          <img src="img/ico/calendar.svg" alt="Events">
+        </a>
+      </li>
+    </ul>
+    <nav class="language">
+      <button class="language-button">
+        <span class="active">EN</span>
+        <span class="arrow-icon">&#9660;</span>
+      </button>
+      <ul class="language-dropdown">
+        <li><a href="/en/index.html">EN</a></li>
+        <li><a href="/de/index.html">DE</a></li>
+        <li><a href="/fr/index.html">FR</a></li>
+      </ul>
+    </nav>
+  </nav>
+  <header>
+    <img src="img/20220420_A11y-Workshop_Powercoders-44-scaled.jpeg" alt="PoCo Workshop">
+    <!-- For SEO reasons only one h1 is still recommended, it should be an unique headline per page, can also be in the main section, depending on layout -->
+    <h1>Powercoders 2023</h1>
+    <p>Meet our team of aspiring professionals, striving for success in IT</p>
+  </header>
+  <main>
+    <section>
+      <h2>Choose our participants</h2>
+      <p>You can filter results by cities, or look at the whole lineap</p>
+    </section>
+    <article>
+      <h3>Participants</h3>
+      <ul>
+        <li><button class="active">All cities</button></li>
+        <li><button>Zurich</button></li>
+        <li><button>Bern</button></li>
+        <li><button>Lausanne</button></li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="img/03-PowerCoders_03.jpg" alt="Anastasiia Sheludko">
+            <h4>Anastasiia Sheludko &raquo;</h4>
+            <p>Lausanne</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/05-PowerCoders_05.jpg" alt="Merve Cildag">
+            <h4>Merve Cildag &raquo;</h4>
+            <p>Zurich</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/09-PowerCoders_09.jpg" alt="Sahin Yesilirmak">
+            <h4>Sahin Yesilirmak &raquo;</h4>
+            <p>Zurich</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/13-PowerCoders_13.jpg" alt="Kingsley Mgbachi">
+            <h4>Kingsley Mgbachi &raquo;</h4>
+            <p>Bern</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/26-PowerCoders_26.jpg" alt="Anna Ostrowska">
+            <h4>Anna Ostrowska &raquo;</h4>
+            <p>Zurich</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/30-PowerCoders_30.jpg" alt="Caner Esiyok">
+            <h4>Caner Esiyok &raquo;</h4>
+            <p>Lausanne</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/33-PowerCoders_33.jpg" alt="Ivan Ferre">
+            <h4>Ivan Ferre &raquo;</h4>
+            <p>Bern</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/47-PowerCoders_47.jpg" alt="Omer Ozturk">
+            <h4>Omer Ozturk &raquo;</h4>
+            <p>Bern</p>
+          </a>
+        </li>
+      </ul>
+    </article>
+  </main>
+  <footer>
+    <nav>
+      <nav>
+        <h4>Support</h4>
+        <ul>
+          <li>
+            <a href="">Contact us</a>
+          </li>
+          <li>
+            <a href="">FAQ</a>
+          </li>
+          <li>
+            <a href="">Career</a>
+          </li>
+        </ul>
+      </nav>
+      <nav>
+        <h4>Legal</h4>
+        <ul>
+          <li>
+            <a href="">Terms & Conditions</a>
+          </li>
+          <li>
+            <a href="">Privacy</a>
+          </li>
+        </ul>
+      </nav>
+    </nav>
+    <nav class="about_us">
+      <h4>About us</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id optio maxime assumenda.
+      </p>
+    </nav>
+    <address>
+      &copy; 2023, Poco Friends, Sample Street 5, 7897 Sample City
+    </address>
+  </footer>
+  <!-- your content here... -->
+  <script src="script.js"></script>
+</body>
+
+</html>
