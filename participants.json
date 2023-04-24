@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Anastasiia Sheludko",
+      "city": "Lausanne",
+      "image": "img/03-PowerCoders_03.jpg"
+    },
+    {
+      "name": "Merve Cildag",
+      "city": "Zurich",
+      "image": "img/05-PowerCoders_05.jpg"
+    },
+    {
+      "name": "Sahin Yesilirmak",
+      "city": "Zurich",
+      "image": "img/09-PowerCoders_09.jpg"
+    },
+    {
+      "name": "Kingsley Mgbachi",
+      "city": "Bern",
+      "image": "img/13-PowerCoders_13.jpg"
+    },
+    {
+      "name": "Anna Ostrowska",
+      "city": "Zurich",
+      "image": "img/26-PowerCoders_26.jpg"
+    },
+    {
+      "name": "Caner Esiyok",
+      "city": "Lausanne",
+      "image": "img/30-PowerCoders_30.jpg"
+    },
+    {
+      "name": "Ivan Ferre",
+      "city": "Bern",
+      "image": "img/33-PowerCoders_33.jpg"
+    },
+    {
+      "name": "Omer Ozturk",
+      "city": "Bern",
+      "image": "img/47-PowerCoders_47.jpg"
+    }
+  ]
